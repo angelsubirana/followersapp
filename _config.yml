@@ -13,13 +13,11 @@ url: https://stillfollowers.app
 enforce_ssl: stillfollowers.app
 
 # App Setting
-app_title: Still Followers
-app_subtitle: for Instagram
-app_description: Have you ever wondered how to get more followers on Instagram?
-appstore_link: "https://itunes.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
+appstore_instagram_link: "https://itunes.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
+appstore_twitter_link: "https://itunes.apple.com/app/apple-store/id1136209740?pt=674507ct=web&mt=8"
 
 # User settings
-username: Angel Subirana
+username: Bobgoo, S.L
 email_username: support@bobgoo.com
 twitter_username: stillfollowers
 instagram_username: stillfollowers
