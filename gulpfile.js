@@ -32,7 +32,10 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('browser-sync', ['jekyll-build'], function() {
 	browserSync({
 		server: {
-			baseDir: '_site'
+			baseDir: '_site',
+			serveStaticOptions: {
+            	extensions: ['html']
+        	}
 		}
 	});
 });
@@ -84,6 +87,8 @@ gulp.task('watch', function() {
   gulp.watch('src/fonts/**/*.{tff,woff,woff2}', ['fonts']);
   gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
+  gulp.watch(['instagram/*html', 'instagram/_includes/*html', 'instagram/_layouts/*.html'], ['jekyll-rebuild']);
+  gulp.watch(['twitter/*html', 'twitter/_includes/*html', 'twitter/_layouts/*.html'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['js', 'sass', 'fonts', 'browser-sync', 'watch']);
