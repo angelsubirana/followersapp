@@ -5,9 +5,55 @@ safe: false
 url: https://stillfollowers.app
 enforce_ssl: stillfollowers.app
 
-# App Setting
-appstore_instagram_link: "https://itunes.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
+# ========== MAIN SITE ==============
+
+# Site settings (Main)
+title: 🥇 Still Followers - Get Followers Now!
+description: We think, design, develop and publish successful apps. Since 2011 turning business ideas into reality. 
+
+# Opengraph (Main)
+opengraph:
+    title: 
+    description:
+    image: /assets/img/FBBanner.png
+    height: 630
+    width: 1200
+
+# ========== TWITTER SITE ==============
+
+# Site settings (Twitter)
+title_twitter: Bobgoo - Apps made with 💛 in Barcelona
+description_twitter: We think, design, develop and publish successful apps. Since 2011 turning business ideas into reality. 
+
+# Opengraph (Twitter)
+opengraph_twitter:
+    title: 
+    description:
+    image: /assets/img/twitter/FBBanner.png
+    height: 630
+    width: 1200
+
+# App Setting (Twitter)
 appstore_twitter_link: "https://itunes.apple.com/app/apple-store/id1136209740?pt=674507&ct=web&mt=8"
+
+# ========== INSTAGRAM SITE ==============
+
+# Site settings (Instagram)
+title_instagram: Bobgoo - Apps made with 💛 in Barcelona
+description_instagram: We think, design, develop and publish successful apps. Since 2011 turning business ideas into reality. 
+
+# Opengraph (Instagram)
+opengraph_instagram:
+    title: 
+    description:
+    image: /assets/img/instagram/FBBanner.png
+    height: 630
+    width: 1200
+
+# App Setting (Instagram)
+appstore_instagram_link: "https://itunes.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
+
+# ========== SHARED SETTINGS ==============
 
 # User settings
 username: Bobgoo, S.L
@@ -17,14 +63,6 @@ instagram_username: stillfollowers
 
 # Google-analytics
 google_analytics_key: UA-25289053-12
-
-# Opengraph
-opengraph:
-    title: 
-    description:
-    image: /assets/img/FBBanner.png
-    height: 630
-    width: 1200
 
 # Favicons
 favicon:     /assets/favicon/favicon.ico
