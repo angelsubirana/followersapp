@@ -36,6 +36,10 @@ opengraph_twitter:
 # App Setting (Twitter)
 appstore_twitter_link: "https://itunes.apple.com/app/apple-store/id1136209740?pt=674507&ct=web&mt=8"
 
+# Favicons (Twitter)
+favicon_twitter:     /assets/favicon/twitter/favicon.ico
+touch_icon_twitter:  /assets/favicon/twitter/apple-touch-icon.png
+
 # ========== INSTAGRAM SITE ==============
 
 # Site settings (Instagram)
@@ -53,6 +57,10 @@ opengraph_instagram:
 # App Setting (Instagram)
 appstore_instagram_link: "https://itunes.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
 
+# Favicons (Instagram)
+favicon_instagram:     /assets/favicon/instagram/favicon.ico
+touch_icon_instagram:  /assets/favicon/instagram/apple-touch-icon.png
+
 # ========== SHARED SETTINGS ==============
 
 # User settings
@@ -66,6 +74,6 @@ google_analytics_key: UA-25289053-12
 
 # Favicons
 favicon:     /assets/favicon/favicon.ico
-touch_icon:  /assets/faviconapple-touch-icon.png
+touch_icon:  /assets/favicon/apple-touch-icon.png
 
 exclude: ['package.json', 'src' , 'node_modules']

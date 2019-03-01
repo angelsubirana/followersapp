@@ -5,8 +5,8 @@
 
   <title>{% if page.title_twitter %}{{ page.title_twitter }}{% else %}{{ site.title_twitter }}{% endif %}</title>
   <meta name="description" content="{% if page.description_twitter %}{{ page.description_twitter | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_twitter }}{% endif %}" />
-  <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ site.touch_icon }}" />
+  <link rel="shortcut icon" href="{{ site.favicon_twitter }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ site.touch_icon_twitter }}" />
 
 
   <meta property="og:title" content="{% if site.opengraph_twitter.title %}{{ site.opengraph_twitter.title }}{% else %}{{ site.title_twitter }}{% endif %}" />

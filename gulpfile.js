@@ -61,6 +61,15 @@ gulp.task('fonts', function() {
 })
 
 /*
+* Compile Favicons
+*/
+gulp.task('favicon', function() {
+  gulp.src('src/favicon/**/*.{png,ico}')
+    .pipe(plumber())
+    .pipe(gulp.dest('assets/favicon/'));
+});
+
+/*
  * Minify images
  */
 gulp.task('imagemin', function() {
@@ -85,10 +94,11 @@ gulp.task('watch', function() {
   gulp.watch('src/styles/**/*.scss', ['sass', 'jekyll-rebuild']);
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch('src/fonts/**/*.{tff,woff,woff2}', ['fonts']);
+  gulp.watch('src/favicon/**/*.{png,ico}', ['favicon']);  
   gulp.watch('src/img/**/*.{jpg,png,gif,svg}', ['imagemin']);
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
   gulp.watch(['instagram/*html', 'instagram/_includes/*html'], ['jekyll-rebuild']);
   gulp.watch(['twitter/*html', 'twitter/_includes/*html'], ['jekyll-rebuild']);
 });
 
-gulp.task('default', ['js', 'sass', 'fonts', 'imagemin', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'sass', 'fonts', 'favicon', 'imagemin', 'browser-sync', 'watch']);

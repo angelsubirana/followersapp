@@ -5,8 +5,8 @@
 
   <title>{% if page.title_instagram %}{{ page.title_instagram }}{% else %}{{ site.title_instagram }}{% endif %}</title>
   <meta name="description" content="{% if page.description_instagram %}{{ page.description_instagram | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_instagram }}{% endif %}" />
-  <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ site.touch_icon }}" />
+  <link rel="shortcut icon" href="{{ site.favicon_instagram }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ site.touch_icon_instagram }}" />
 
 
   <meta property="og:title" content="{% if site.opengraph_instagram.title %}{{ site.opengraph_instagram.title }}{% else %}{{ site.title_instagram }}{% endif %}" />
