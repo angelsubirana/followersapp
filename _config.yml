@@ -9,7 +9,7 @@ enforce_ssl: stillfollowers.app
 
 # Site settings (Main)
 title: 🥇 Still Followers - Get Followers Now!
-description: We think, design, develop and publish successful apps. Since 2011 turning business ideas into reality. 
+description: "Get followers for Twitter and Instagram NOW! Download the app for FREE!"
 
 # Opengraph (Main)
 opengraph:
@@ -22,8 +22,8 @@ opengraph:
 # ========== TWITTER SITE ==============
 
 # Site settings (Twitter)
-title_twitter: Bobgoo - Apps made with 💛 in Barcelona
-description_twitter: We think, design, develop and publish successful apps. Since 2011 turning business ideas into reality. 
+title_twitter: 🥇 Still Followers for Twitter - Get Followers Now!
+description_twitter: "Have you ever wondered how to grow on Twitter? Let Still Followers do the hard work... Get powerful tracking and analytics of your Twitter followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!" 
 
 # Opengraph (Twitter)
 opengraph_twitter:
@@ -39,8 +39,8 @@ appstore_twitter_link: "https://itunes.apple.com/app/apple-store/id1136209740?pt
 # ========== INSTAGRAM SITE ==============
 
 # Site settings (Instagram)
-title_instagram: Bobgoo - Apps made with 💛 in Barcelona
-description_instagram: We think, design, develop and publish successful apps. Since 2011 turning business ideas into reality. 
+title_instagram: 🥇 Still Followers for Instagram - Get Followers Now!
+description_instagram: "Have you ever wondered how to grow on Instagram? Let Still Followers do the hard work... Get powerful tracking and analytics of your Instagram followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!" 
 
 # Opengraph (Instagram)
 opengraph_instagram:
