@@ -4,19 +4,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="description" content="{% if page.description_twitter %}{{ page.description_twitter | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_twitter }}{% endif %}" />
   <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{ site.touch_icon }}" />
 
 
-  <meta property="og:title" content="{% if site.opengraph.title %}{{ site.opengraph.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:site_name" content="{% if site.opengraph.title %}{{ site.opengraph.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{% if site.opengraph.description %}{{ site.opengraph.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:title" content="{% if site.opengraph_twitter.title %}{{ site.opengraph_twitter.title }}{% else %}{{ site.title_twitter }}{% endif %}" />
+  <meta property="og:site_name" content="{% if site.opengraph_twitter.title %}{{ site.opengraph_twitter.title }}{% else %}{{ site.title_twitter }}{% endif %}" />
+  <meta property="og:description" content="{% if site.opengraph_twitter.description %}{{ site.opengraph_twitter.description }}{% else %}{{ site.description_twitter }}{% endif %}" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:url" content="{{ site.url }}" />
-  <meta property="og:image" content="{% if site.opengraph.image %}{{ site.url }}{{ site.opengraph.image }}{% endif %}" />
-  <meta property="og:image:height" content="{{ site.opengraph.height }}" />
-  <meta property="og:image:width" content="{{ site.opengraph.width }}" />
+  <meta property="og:image" content="{% if site.opengraph_twitter.image %}{{ site.url }}{{ site.opengraph_twitter.image }}{% endif %}" />
+  <meta property="og:image:height" content="{{ site.opengraph_twitter.height }}" />
+  <meta property="og:image:width" content="{{ site.opengraph_twitter.width }}" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{ site.twitter_username }}" />
 
