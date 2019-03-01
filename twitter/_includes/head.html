@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title_twitter %}{{ page.title_twitter }}{% else %}{{ site.title_twitter }}{% endif %}</title>
   <meta name="description" content="{% if page.description_twitter %}{{ page.description_twitter | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_twitter }}{% endif %}" />
   <link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{ site.touch_icon }}" />
