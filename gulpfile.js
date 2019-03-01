@@ -64,7 +64,7 @@ gulp.task('fonts', function() {
  * Minify images
  */
 gulp.task('imagemin', function() {
-	return gulp.src('src/img/**/*.{jpg,png,gif}')
+	return gulp.src('src/img/**/*.{jpg,png,gif,svg}')
 		.pipe(plumber())
 		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 		.pipe(gulp.dest('assets/img/'));
@@ -85,10 +85,10 @@ gulp.task('watch', function() {
   gulp.watch('src/styles/**/*.scss', ['sass', 'jekyll-rebuild']);
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch('src/fonts/**/*.{tff,woff,woff2}', ['fonts']);
-  gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
+  gulp.watch('src/img/**/*.{jpg,png,gif,svg}', ['imagemin']);
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
-  gulp.watch(['instagram/*html', 'instagram/_includes/*html', 'instagram/_layouts/*.html'], ['jekyll-rebuild']);
-  gulp.watch(['twitter/*html', 'twitter/_includes/*html', 'twitter/_layouts/*.html'], ['jekyll-rebuild']);
+  gulp.watch(['instagram/*html', 'instagram/_includes/*html'], ['jekyll-rebuild']);
+  gulp.watch(['twitter/*html', 'twitter/_includes/*html'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['js', 'sass', 'fonts', 'imagemin', 'browser-sync', 'watch']);
