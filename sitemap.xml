@@ -5,7 +5,15 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://igers.bobgoo.com/</loc>
-  <lastmod>2018-11-16T07:35:00+00:00</lastmod>
+  <loc>https://stillfollowers.app/</loc>
+  <lastmod>2019-03-04T11:09:30+00:00</lastmod>
+</url>
+<url>
+  <loc>https://stillfollowers.app/twitter/</loc>
+  <lastmod>2019-03-04T11:09:30+00:00</lastmod>
+</url>
+<url>
+  <loc>https://stillfollowers.app/instagram/</loc>
+  <lastmod>2019-03-04T11:09:30+00:00</lastmod>
 </url>
 </urlset>

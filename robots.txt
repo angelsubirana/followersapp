@@ -4,4 +4,4 @@ Disallow: /tos*
 Noindex: /privacy*
 Noindex: /tos*
 
-Sitemap: https://igers.bobgoo.com/sitemap.xml
+Sitemap: https://stillfollowers.app/sitemap.xml
