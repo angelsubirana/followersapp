@@ -1,14 +1,17 @@
-#about {
-  width: 90%;
+#faq {
+  background: $faq;
+  width: 100%;
   margin: 0 auto;
-  max-width: 960px;
-  min-height: 100vh;
+  padding-bottom: 2em;
   @media only screen and (min-width: $cut) {
-    width: 80%;
+    width: 100%;
   }
 }
 
-.feature {
+.question {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;  
   text-align: center;
   font-size: 60px;
   display: flex;
@@ -24,12 +27,13 @@
   }
 }
 
-.feature-details {
-  text-align: center;
-  margin: 5px auto;
-}
-
-.feature-details .fa{
-  padding: 50px 0;
-  font-size: 50px;
+.question-details {
+  text-align: justify;
+  h3 {
+    text-align: left;
+    margin: 0;
+  }
+  h4 {
+    margin: 0;
+  }
 }
