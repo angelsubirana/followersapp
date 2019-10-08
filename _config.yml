@@ -8,7 +8,7 @@ enforce_ssl: stillfollowers.app
 # ========== MAIN SITE ==============
 
 # Site settings (Main)
-title: Still Followers - Get Followers Now!
+title: Still Followers - Get Followers for Instagram and Twitter
 description: "Get followers for Twitter and Instagram NOW! Download the app for FREE!"
 
 # Opengraph (Main)
@@ -22,7 +22,7 @@ opengraph:
 # ========== TWITTER SITE ==============
 
 # Site settings (Twitter)
-title_twitter: 🥇 Still Followers for Twitter - Get Followers Now!
+title_twitter: Still Followers for Twitter - Get Followers Now!
 description_twitter: "Have you ever wondered how to grow on Twitter? Let Still Followers do the hard work... Get powerful tracking and analytics of your Twitter followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!" 
 
 # Opengraph (Twitter)
@@ -43,7 +43,7 @@ touch_icon_twitter:  /assets/favicon/twitter/apple-touch-icon.png
 # ========== INSTAGRAM SITE ==============
 
 # Site settings (Instagram)
-title_instagram: 🥇 Still Followers for Instagram - Get Followers Now!
+title_instagram: Still Followers for Instagram - Get Followers Now!
 description_instagram: "Have you ever wondered how to grow on Instagram? Let Still Followers do the hard work... Get powerful tracking and analytics of your Instagram followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!" 
 
 # Opengraph (Instagram)
