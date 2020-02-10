@@ -34,7 +34,7 @@ opengraph_twitter:
     width: 1200
 
 # App Setting (Twitter)
-appstore_twitter_link: "https://apps.apple.com/app/still-followers-for-twitter/id1136209740?mt=8"
+appstore_twitter_link: "https://apps.apple.com/app/apple-store/id1136209740?pt=674507&ct=web&mt=8"
 
 # Favicons (Twitter)
 favicon_twitter:     /assets/favicon/twitter/favicon.ico
@@ -55,7 +55,7 @@ opengraph_instagram:
     width: 1200
 
 # App Setting (Instagram)
-appstore_instagram_link: "https://apps.apple.com/app/still-followers-for-instagram/id1394497522?mt=8"
+appstore_instagram_link: "https://apps.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
 
 # Favicons (Instagram)
 favicon_instagram:     /assets/favicon/instagram/favicon.ico
