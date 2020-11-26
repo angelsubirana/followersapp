@@ -8,8 +8,8 @@ enforce_ssl: stillfollowers.app
 # ========== MAIN SITE ==============
 
 # Site settings (Main)
-title: Still Followers - Get Followers for Instagram and Twitter
-description: "Get followers for Twitter and Instagram NOW! Download the app for FREE!"
+title: Still Followers - Get Followers for Instagram, Twitter and TikTok
+description: "Get followers for TikTok, Instagram and Twitter NOW! Download the app for FREE!"
 
 # Opengraph (Main)
 opengraph:
@@ -23,7 +23,7 @@ opengraph:
 
 # Site settings (Twitter)
 title_twitter: Still Followers for Twitter - Get Followers Now!
-description_twitter: "Have you ever wondered how to grow on Twitter? Let Still Followers do the hard work... Get powerful tracking and analytics of your Twitter followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!" 
+description_twitter: "Have you ever wondered how to grow on Twitter? Let Still Followers do the hard work... Get powerful tracking and analytics about your Twitter followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (Twitter)
 opengraph_twitter:
@@ -44,7 +44,7 @@ touch_icon_twitter:  /assets/favicon/twitter/apple-touch-icon.png
 
 # Site settings (Instagram)
 title_instagram: Still Followers for Instagram - Get Followers Now!
-description_instagram: "Have you ever wondered how to grow on Instagram? Let Still Followers do the hard work... Get powerful tracking and analytics of your Instagram followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!" 
+description_instagram: "Have you ever wondered how to grow on Instagram? Let Still Followers do the hard work... Get powerful tracking and analytics about your Instagram followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (Instagram)
 opengraph_instagram:
@@ -61,6 +61,27 @@ appstore_instagram_link: "https://apps.apple.com/app/apple-store/id1394497522?pt
 favicon_instagram:     /assets/favicon/instagram/favicon.ico
 touch_icon_instagram:  /assets/favicon/instagram/apple-touch-icon.png
 
+# ========== TIKTOK SITE ==============
+
+# Site settings (TikTok)
+title_tiktok: Still Followers for TikTok - Get Followers Now!
+description_tiktok: "Have you ever wondered how to grow on TikTok? Let Still Followers do the hard work... Get powerful tracking and analytics about your Tiktok followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
+
+# Opengraph (TikTok)
+opengraph_tiktok:
+    title:
+    description:
+    image: /assets/img/tiktok/FBBanner.png
+    height: 630
+    width: 1200
+
+# App Setting (TikTok)
+appstore_tiktok_link: "https://apps.apple.com/app/apple-store/id1518561859?pt=674507&ct=web&mt=8"
+
+# Favicons (TikTok)
+favicon_tiktok:     /assets/favicon/tiktok/favicon.ico
+touch_icon_tiktok:  /assets/favicon/tiktok/apple-touch-icon.png
+
 # ========== SHARED SETTINGS ==============
 
 # User settings
@@ -68,6 +89,7 @@ username: Bobgoo S.L.
 email_username: support@bobgoo.com
 twitter_username: stillfollowers
 instagram_username: stillfollowers
+tiktok_username: stillfollowers
 
 # Google-analytics
 google_analytics_key: UA-25289053-13

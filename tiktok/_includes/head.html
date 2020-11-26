@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title_tiktok %}{{ page.title_tiktok }}{% else %}{{ site.title_tiktok }}{% endif %}</title>
+  <meta name="description" content="{% if page.description_tiktok %}{{ page.description_tiktok | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_tiktok }}{% endif %}" />
+  <link rel="shortcut icon" href="{{ site.favicon_tiktok }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ site.touch_icon_tiktok }}" />
+
+  <meta property="og:title" content="{% if site.opengraph_tiktok.title %}{{ site.opengraph_tiktok.title }}{% else %}{{ site.title_tiktok }}{% endif %}" />
+  <meta property="og:site_name" content="{% if site.opengraph_tiktok.title %}{{ site.opengraph_tiktok.title }}{% else %}{{ site.title_tiktok }}{% endif %}" />
+  <meta property="og:description" content="{% if site.opengraph_tiktok.description %}{{ site.opengraph_tiktok.description }}{% else %}{{ site.description_tiktok }}{% endif %}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:image" content="{% if site.opengraph_tiktok.image %}{{ site.url }}{{ site.opengraph_tiktok.image }}{% endif %}" />
+  <meta property="og:image:height" content="{{ site.opengraph_tiktok.height }}" />
+  <meta property="og:image:width" content="{{ site.opengraph_tiktok.width }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+
+  <meta name="apple-itunes-app" content="app-id=1518561859">
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+</head>
