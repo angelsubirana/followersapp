@@ -29,7 +29,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /*
  * Build the jekyll site and launch browser-sync
  */
-gulp.task('browser-sync', ['jekyll-build'], function() {
+gulp.task('browser-sync', function() {
 	browserSync({
 		server: {
 			baseDir: '_site',
@@ -99,6 +99,9 @@ gulp.task('watch', function() {
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
   gulp.watch(['instagram/*html', 'instagram/_includes/*html'], ['jekyll-rebuild']);
   gulp.watch(['twitter/*html', 'twitter/_includes/*html'], ['jekyll-rebuild']);
+  gulp.watch(['tiktok/*html', 'tiktok/_includes/*html'], ['jekyll-rebuild']);
 });
 
-gulp.task('default', ['js', 'sass', 'fonts', 'favicon', 'imagemin', 'browser-sync', 'watch']);
+gulp.task('default', ['js', 'sass', 'fonts', 'favicon', 'imagemin', 'browser-sync', 'watch'], function() {
+	gulp.start('jekyll-rebuild');
+});
