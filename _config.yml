@@ -27,8 +27,8 @@ description_twitter: "Have you ever wondered how to grow on Twitter? Let Still F
 
 # Opengraph (Twitter)
 opengraph_twitter:
-    title: "Still Followers for Twitter - Get Followers Now!"
-    description: "Have you ever wondered how to grow on Twitter? Download the app for FREE!"
+    title:
+    description: "Have you ever wondered how to grow on Twitter? \nGet NOW the app for FREE!"
     image: /assets/img/twitter/FBBanner.png
     height: 630
     width: 1200
