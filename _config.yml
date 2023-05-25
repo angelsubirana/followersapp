@@ -8,8 +8,8 @@ enforce_ssl: stillfollowers.app
 # ========== MAIN SITE ==============
 
 # Site settings (Main)
-title: Still Followers - Get Followers for Instagram, Twitter and TikTok
-description: "Get followers for TikTok, Instagram and Twitter NOW! Get the app for FREE!"
+title: Still Followers - Get Followers for Instagram, TikTok, Twitter and Mastodon
+description: "Get followers analytics and organic growth! Available for Instagram, TikTok, Twitter and Mastodon! Download FREE on the App Store!"
 
 # Opengraph (Main)
 opengraph:
