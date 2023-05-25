@@ -8,8 +8,8 @@ enforce_ssl: stillfollowers.app
 # ========== MAIN SITE ==============
 
 # Site settings (Main)
-title: Still Followers - Get Followers for Instagram, Twitter and TikTok
-description: "Get followers for TikTok, Instagram and Twitter NOW! Get the app for FREE!"
+title: Still Followers - Get Followers for Instagram, TikTok, Twitter and Mastodon
+description: "Get followers analytics and organic growth! Available for Instagram, TikTok, Twitter and Mastodon! Download FREE on the App Store!"
 
 # Opengraph (Main)
 opengraph:
@@ -22,13 +22,13 @@ opengraph:
 # ========== TWITTER SITE ==============
 
 # Site settings (Twitter)
-title_twitter: Still Followers for Twitter - Get Followers Now!
+title_twitter: Still Followers for Twitter - Smart Analytics and Growth for Twitter!
 description_twitter: "Have you ever wondered how to grow on Twitter? Let Still Followers do the hard work... Get powerful tracking and analytics about your Twitter followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (Twitter)
 opengraph_twitter:
     title:
-    description: "Have you ever wondered how to grow on Twitter? Get the app for FREE!"
+    description: "Get followers analytics and organic growth for Twitter! Download FREE on the App Store!"
     image: /assets/img/twitter/FBBanner.png
     height: 630
     width: 1200
@@ -43,13 +43,13 @@ touch_icon_twitter:  /assets/favicon/twitter/apple-touch-icon.png
 # ========== INSTAGRAM SITE ==============
 
 # Site settings (Instagram)
-title_instagram: Still Followers for Instagram - Get Followers Now!
+title_instagram: Still Followers for Instagram - Smart Analytics and Growth for Instagram!
 description_instagram: "Have you ever wondered how to grow on Instagram? Let Still Followers do the hard work... Get powerful tracking and analytics about your Instagram followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (Instagram)
 opengraph_instagram:
     title: 
-    description: "Have you ever wondered how to grow on Instagram? Get the app for FREE!"
+    description: "Get followers analytics and organic growth for Instagram! Download FREE on the App Store!"
     image: /assets/img/instagram/FBBanner.png
     height: 630
     width: 1200
@@ -64,13 +64,13 @@ touch_icon_instagram:  /assets/favicon/instagram/apple-touch-icon.png
 # ========== TIKTOK SITE ==============
 
 # Site settings (TikTok)
-title_tiktok: Still Followers for TikTok - Get Followers Now!
+title_tiktok: Still Followers for TikTok - Smart Analytics and Growth for TikTok!
 description_tiktok: "Have you ever wondered how to grow on TikTok? Let Still Followers do the hard work... Get powerful tracking and analytics about your Tiktok followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (TikTok)
 opengraph_tiktok:
     title:
-    description: "Have you ever wondered how to grow on TikTok? Get the app for FREE!"
+    description: "Get followers analytics and organic growth for TikTok! Download FREE on the App Store!"
     image: /assets/img/tiktok/FBBanner.png
     height: 630
     width: 1200
@@ -81,6 +81,27 @@ appstore_tiktok_link: "https://apps.apple.com/app/apple-store/id1518561859?pt=67
 # Favicons (TikTok)
 favicon_tiktok:     /assets/favicon/tiktok/favicon.ico
 touch_icon_tiktok:  /assets/favicon/tiktok/apple-touch-icon.png
+
+# ========== MASTODON SITE ==============
+
+# Site settings (Mastodon)
+title_mastodon: Still Followers for Mastodon - Smart Analytics and Growth for Mastodon!
+description_mastodon: "Have you ever wondered how to grow on Mastodon? Let Still Followers do the hard work... Get powerful tracking and analytics about your Mastodon followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
+
+# Opengraph (Mastodon)
+opengraph_mastodon:
+    title:
+    description: "Get followers analytics and organic growth for Mastodon! Download FREE on the App Store!"
+    image: /assets/img/mastodon/FBBanner.png
+    height: 630
+    width: 1200
+
+# App Setting (Mastodon)
+appstore_mastodon_link: "https://apps.apple.com/app/apple-store/id6444406285?pt=674507&ct=web&mt=8"
+
+# Favicons (Mastodon)
+favicon_mastodon:     /assets/favicon/mastodon/favicon.ico
+touch_icon_mastodon:  /assets/favicon/mastodon/apple-icon.png
 
 # ========== SHARED SETTINGS ==============
 
