@@ -3,22 +3,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title_twitter %}{{ page.title_twitter }}{% else %}{{ site.title_twitter }}{% endif %}</title>
-  <meta name="description" content="{% if page.description_twitter %}{{ page.description_twitter | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_twitter }}{% endif %}" />
-  <link rel="shortcut icon" href="{{ site.favicon_twitter }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ site.touch_icon_twitter }}" />
+  <title>{% if page.title_mastodon %}{{ page.title_mastodon }}{% else %}{{ site.title_mastodon }}{% endif %}</title>
+  <meta name="description" content="{% if page.description_mastodon %}{{ page.description_mastodon | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description_mastodon }}{% endif %}" />
+  <link rel="shortcut icon" href="{{ site.favicon_mastodon }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ site.touch_icon_mastodon }}" />
 
-  <meta property="og:title" content="{% if site.opengraph_twitter.title %}{{ site.opengraph_twitter.title }}{% else %}{{ site.title_twitter }}{% endif %}" />
-  <meta property="og:site_name" content="{% if site.opengraph_twitter.title %}{{ site.opengraph_twitter.title }}{% else %}{{ site.title_twitter }}{% endif %}" />
-  <meta property="og:description" content="{% if site.opengraph_twitter.description %}{{ site.opengraph_twitter.description }}{% else %}{{ site.description_twitter }}{% endif %}" />
+  <meta property="og:title" content="{% if site.opengraph_mastodon.title %}{{ site.opengraph_mastodon.title }}{% else %}{{ site.title_mastodon }}{% endif %}" />
+  <meta property="og:site_name" content="{% if site.opengraph_mastodon.title %}{{ site.opengraph_mastodon.title }}{% else %}{{ site.title_mastodon }}{% endif %}" />
+  <meta property="og:description" content="{% if site.opengraph_mastodon.description %}{{ site.opengraph_mastodon.description }}{% else %}{{ site.description_mastodon }}{% endif %}" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:image" content="{% if site.opengraph_twitter.image %}{{ site.url }}{{ site.opengraph_twitter.image }}{% endif %}" />
-  <meta property="og:image:height" content="{{ site.opengraph_twitter.height }}" />
-  <meta property="og:image:width" content="{{ site.opengraph_twitter.width }}" />
+  <meta property="og:image" content="{% if site.opengraph_mastodon.image %}{{ site.url }}{{ site.opengraph_mastodon.image }}{% endif %}" />
+  <meta property="og:image:height" content="{{ site.opengraph_mastodon.height }}" />
+  <meta property="og:image:width" content="{{ site.opengraph_mastodon.width }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+  <meta name="twitter:site" content="@{{ site.mastodon_username }}" />
 
-  <meta name="apple-itunes-app" content="app-id=1136209740">
+  <meta name="apple-itunes-app" content="app-id=6444406285">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 </head>
