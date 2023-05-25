@@ -38,7 +38,7 @@ appstore_twitter_link: "https://apps.apple.com/app/apple-store/id1136209740?pt=6
 
 # Favicons (Twitter)
 favicon_twitter:     /assets/favicon/twitter/favicon.ico
-touch_icon_twitter:  /assets/favicon/twitter/apple-touch-icon.png
+touch_icon_twitter:  /assets/favicon/twitter/apple-icon.png
 
 # ========== INSTAGRAM SITE ==============
 
@@ -59,7 +59,7 @@ appstore_instagram_link: "https://apps.apple.com/app/apple-store/id1394497522?pt
 
 # Favicons (Instagram)
 favicon_instagram:     /assets/favicon/instagram/favicon.ico
-touch_icon_instagram:  /assets/favicon/instagram/apple-touch-icon.png
+touch_icon_instagram:  /assets/favicon/instagram/apple-icon.png
 
 # ========== TIKTOK SITE ==============
 
@@ -80,7 +80,7 @@ appstore_tiktok_link: "https://apps.apple.com/app/apple-store/id1518561859?pt=67
 
 # Favicons (TikTok)
 favicon_tiktok:     /assets/favicon/tiktok/favicon.ico
-touch_icon_tiktok:  /assets/favicon/tiktok/apple-touch-icon.png
+touch_icon_tiktok:  /assets/favicon/tiktok/apple-icon.png
 
 # ========== MASTODON SITE ==============
 
