@@ -43,13 +43,13 @@ touch_icon_twitter:  /assets/favicon/twitter/apple-touch-icon.png
 # ========== INSTAGRAM SITE ==============
 
 # Site settings (Instagram)
-title_instagram: Still Followers for Instagram - Get Followers Now!
+title_instagram: Still Followers for Instagram - Smart Analytics and Growth for Instagram!
 description_instagram: "Have you ever wondered how to grow on Instagram? Let Still Followers do the hard work... Get powerful tracking and analytics about your Instagram followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (Instagram)
 opengraph_instagram:
     title: 
-    description: "Have you ever wondered how to grow on Instagram? Get the app for FREE!"
+    description: "Get followers analytics and organic growth for Instagram! Download FREE on the App Store!"
     image: /assets/img/instagram/FBBanner.png
     height: 630
     width: 1200
