@@ -64,12 +64,12 @@ touch_icon_instagram:  /assets/favicon/instagram/apple-touch-icon.png
 # ========== TIKTOK SITE ==============
 
 # Site settings (TikTok)
-title_tiktok: Still Followers for TikTok - Smart Analytics and Growth for TikTok!
-description_tiktok: "Have you ever wondered how to grow on TikTok? Let Still Followers do the hard work... Get powerful tracking and analytics about your Tiktok followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
+title_tiktok: Still Followers for TikTok - Smart Analytics and Growth for TikTok!
+description_tiktok: "Have you ever wondered how to grow on TikTok? Let Still Followers do the hard work... Get powerful tracking and analytics about your TikTok followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
 
 # Opengraph (TikTok)
 opengraph_tiktok:
-    title:
+    title: 
     description: "Get followers analytics and organic growth for TikTok! Download FREE on the App Store!"
     image: /assets/img/tiktok/FBBanner.png
     height: 630
