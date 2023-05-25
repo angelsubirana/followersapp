@@ -82,6 +82,27 @@ appstore_tiktok_link: "https://apps.apple.com/app/apple-store/id1518561859?pt=67
 favicon_tiktok:     /assets/favicon/tiktok/favicon.ico
 touch_icon_tiktok:  /assets/favicon/tiktok/apple-touch-icon.png
 
+# ========== MASTODON SITE ==============
+
+# Site settings (Mastodon)
+title_mastodon: Still Followers for Mastodon - Smart Analytics and Growth for Mastodon!
+description_mastodon: "Have you ever wondered how to grow on Mastodon? Let Still Followers do the hard work... Get powerful tracking and analytics about your Mastodon followers. Give up wasting your time... KEEP IT SHORT AND SIMPLE: Analytics well done!"
+
+# Opengraph (Mastodon)
+opengraph_mastodon:
+    title: 
+    description: "Get followers analytics and organic growth for Mastodon! Download FREE on the App Store!"
+    image: /assets/img/mastodon/FBBanner.png
+    height: 630
+    width: 1200
+
+# App Setting (Mastodon)
+appstore_mastodon_link: "https://apps.apple.com/app/apple-store/id6444406285?pt=674507&ct=web&mt=8"
+
+# Favicons (Mastodon)
+favicon_mastodon:     /assets/favicon/mastodon/favicon.ico
+touch_icon_mastodon:  /assets/favicon/mastodon/apple-icon.png
+
 # ========== SHARED SETTINGS ==============
 
 # User settings
