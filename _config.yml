@@ -34,7 +34,7 @@ opengraph_twitter:
     width: 1200
 
 # App Setting (Twitter)
-appstore_twitter_link: "https://apps.apple.com/app/apple-store/id1136209740?pt=674507&ct=web&mt=8"
+appstore_twitter_link: "https://apps.apple.com/app/apple-store/id1136209740"
 
 # Favicons (Twitter)
 favicon_twitter:     /assets/favicon/twitter/favicon.ico
@@ -55,7 +55,7 @@ opengraph_instagram:
     width: 1200
 
 # App Setting (Instagram)
-appstore_instagram_link: "https://apps.apple.com/app/apple-store/id1394497522?pt=674507&ct=web&mt=8"
+appstore_instagram_link: "https://apps.apple.com/app/apple-store/id1394497522"
 
 # Favicons (Instagram)
 favicon_instagram:     /assets/favicon/instagram/favicon.ico
@@ -76,7 +76,7 @@ opengraph_tiktok:
     width: 1200
 
 # App Setting (TikTok)
-appstore_tiktok_link: "https://apps.apple.com/app/apple-store/id1518561859?pt=674507&ct=web&mt=8"
+appstore_tiktok_link: "https://apps.apple.com/app/apple-store/id1518561859"
 
 # Favicons (TikTok)
 favicon_tiktok:     /assets/favicon/tiktok/favicon.ico
@@ -97,7 +97,7 @@ opengraph_mastodon:
     width: 1200
 
 # App Setting (Mastodon)
-appstore_mastodon_link: "https://apps.apple.com/app/apple-store/id6444406285?pt=674507&ct=web&mt=8"
+appstore_mastodon_link: "https://apps.apple.com/app/apple-store/id6444406285"
 
 # Favicons (Mastodon)
 favicon_mastodon:     /assets/favicon/mastodon/favicon.ico
